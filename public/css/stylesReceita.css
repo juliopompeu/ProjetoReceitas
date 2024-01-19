@@ -1,0 +1,133 @@
+*{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAVBAR */
+
+#logo img{
+    height: 80px;
+    width: 90px;
+}
+
+#navbar {
+    padding: 1.2em 1.4em;
+    /* margin-bottom: 10em; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #018790;
+    border-bottom: 3px solid #bacca4;
+
+}
+
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar ul  li{
+    margin-left: 1em;
+}
+
+#navbar ul  li a{
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bold;
+    color: #fff;
+}
+
+#navbar ul  li a:hover{
+    color: #0c0636;
+}
+
+
+/* BODY */
+
+.grupo-receita {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+h1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    margin-top: 1em;
+    margin-bottom: 1.2em;
+    margin-left: 1em;
+    /* padding: 1em; */
+    color: #0a516d;
+}
+
+.lista-produtos{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-left: 3.5em;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+::-webkit-scrollbar{
+    background-color: #000;
+    width: 0px;
+    height: 0px;
+}
+
+
+.lista-produtos img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 5em;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-basis: 100%; */
+}
+
+.lista-produtos .titulo{
+    width: 200px;
+    font-weight: 700;
+    font-family: 'Lucida Sans';
+    margin-top: 1em;
+    display: flex;
+    /* margin-left: 1em; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FOOTER */
+
+footer {
+    height: 40px;
+    display: flex;
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+    background-color: #018790;   
+}
+
+footer a {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #222;
+}
